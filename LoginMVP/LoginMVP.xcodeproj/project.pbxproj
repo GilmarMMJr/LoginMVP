@@ -26,6 +26,7 @@
 		51BEBCCD29402B1A000991DA /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEBCCC29402B1A000991DA /* UserManager.swift */; };
 		51BEBCCF29402DCE000991DA /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEBCCE29402DCE000991DA /* LoginPresenter.swift */; };
 		51BEBCD529403CCE000991DA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51BEBCD429403CCE000991DA /* GoogleService-Info.plist */; };
+		51BEBCD72941646E000991DA /* RegisterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEBCD62941646E000991DA /* RegisterPresenter.swift */; };
 		53A58F5337A0CAEEB1D42996 /* Pods_LoginMVP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50AD5134985A2DF15A2B0A2B /* Pods_LoginMVP.framework */; };
 		C24961DEE9944D865DFE02A7 /* Pods_LoginMVPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5891DAB9AB4EA133908962EA /* Pods_LoginMVPTests.framework */; };
 		FBBBD4079BB90E4C33BF0969 /* Pods_LoginMVP_LoginMVPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83BAA5612BB838938553C724 /* Pods_LoginMVP_LoginMVPUITests.framework */; };
@@ -74,6 +75,7 @@
 		51BEBCCC29402B1A000991DA /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		51BEBCCE29402DCE000991DA /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
 		51BEBCD429403CCE000991DA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		51BEBCD62941646E000991DA /* RegisterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPresenter.swift; sourceTree = "<group>"; };
 		5891DAB9AB4EA133908962EA /* Pods_LoginMVPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginMVPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ADD29B2F2F9D499DC06C2B7 /* Pods-LoginMVPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMVPTests.debug.xcconfig"; path = "Target Support Files/Pods-LoginMVPTests/Pods-LoginMVPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7A0C99E9DE21865407544160 /* Pods-LoginMVP-LoginMVPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMVP-LoginMVPUITests.debug.xcconfig"; path = "Target Support Files/Pods-LoginMVP-LoginMVPUITests/Pods-LoginMVP-LoginMVPUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				51BEBCC1293EAC7A000991DA /* RegisterViewController.swift */,
+				51BEBCD62941646E000991DA /* RegisterPresenter.swift */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -516,6 +519,7 @@
 				51BEBCC6294025F0000991DA /* UserModel.swift in Sources */,
 				51BEBC85293EA4C8000991DA /* AppDelegate.swift in Sources */,
 				51BEBCC2293EAC7B000991DA /* RegisterViewController.swift in Sources */,
+				51BEBCD72941646E000991DA /* RegisterPresenter.swift in Sources */,
 				51BEBCC429402483000991DA /* UserProvider.swift in Sources */,
 				51BEBCBF293EAB75000991DA /* LoginViewController.swift in Sources */,
 				51BEBC87293EA4C8000991DA /* SceneDelegate.swift in Sources */,

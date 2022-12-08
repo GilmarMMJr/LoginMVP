@@ -32,24 +32,30 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func registerButtonTap(_ sender: Any) {
-        
+        goRegister()
     }
     
 }
 
 
 extension LoginViewController: LoginPresenterDelegate {
-    
+ 
     func showMessage(title: String, message: String) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         self.present(alert, animated: true)
     }
     
-    func gotHome() {
+    func goHome() {
         let home = self.storyboard?.instantiateViewController(withIdentifier: "HomeViewcontroller") as! HomeViewcontroller
         home.modalPresentationStyle = .fullScreen
         self.present(home, animated: true)
+    }
+    
+    func goRegister() {
+        let register = self.storyboard?.instantiateViewController(withIdentifier: "RegisterViewController") as! RegisterViewController
+        register.modalPresentationStyle = .fullScreen
+        self.present(register, animated: true)
     }
     
 }
